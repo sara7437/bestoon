@@ -1,3 +1,5 @@
 from django.contrib import admin
+from .models import Expense
 
-# Register your models here.
+# ثبت مدل Expense در پنل مدیریت
+admin.site.register(Expense)
